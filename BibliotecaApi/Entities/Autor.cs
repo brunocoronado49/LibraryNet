@@ -7,5 +7,6 @@ namespace BibliotecaApi.Entities
         public int Id { get; set; }
         [Required]
         public required string Name { get; set; }
+        public List<Libro> Libros { get; set; } = new List<Libro>();
     }
 }

@@ -52,7 +52,6 @@ namespace BibliotecaApi.Controllers
 
             context.Update(autor);
             await context.SaveChangesAsync();
-
             return Ok();
         }
 
