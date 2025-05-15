@@ -159,3 +159,4 @@ C:\Users\franc\Development\backend\BibliotecaApi\BibliotecaApi\bin\Debug\net9.0\
 C:\Users\franc\Development\backend\BibliotecaApi\BibliotecaApi\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\franc\Development\backend\BibliotecaApi\BibliotecaApi\obj\Debug\net9.0\BibliotecaApi.csproj.AssemblyReference.cache
 C:\Users\franc\Development\backend\BibliotecaApi\BibliotecaApi\obj\Debug\net9.0\Bibliote.D044094E.Up2Date
+C:\Users\franc\Development\backend\BibliotecaApi\BibliotecaApi\obj\Debug\net9.0\BibliotecaApi.sourcelink.json

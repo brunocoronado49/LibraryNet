@@ -40,7 +40,9 @@ namespace BibliotecaApi.Controllers
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Libro>> GetLibroById(int id)
         {
-            var libro = await context.Libros.FirstOrDefaultAsync(l => l.Id == id);
+            var libro = await context.Libros
+                .Include(a => a.Autor)
+                .FirstOrDefaultAsync(l => l.Id == id);
 
             if(libro == null)
             {

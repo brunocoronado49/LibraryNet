@@ -1,10 +1,12 @@
 using BibliotecaApi.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Area de servicios
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(
+    op => op.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 builder.Services.AddDbContext<ApplicationDbContext>(
     options => options.UseSqlServer("name=DefaultConnection"));

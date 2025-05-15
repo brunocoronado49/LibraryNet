@@ -16,6 +16,7 @@ namespace BibliotecaApi.Controllers
         }
 
         [HttpGet]
+        // [HttpGet("/listado-autores")]
         public async Task<IEnumerable<Autor>> Get()
         {
             return await context.Autores.ToListAsync();
@@ -29,10 +30,26 @@ namespace BibliotecaApi.Controllers
             return Ok();
         }
 
+        /*
+        [HttpGet("first")] // Test de valores
+        public async Task<Autor> GetFirstAutor()
+        {
+            return await context.Autores.FirstAsync();
+        }
+
+        [HttpGet("{parametro1}/{parametro2?}")] // Test de valores
+        public IActionResult GetParams(string parametro1, string? parametro2)
+        {
+            return Ok(new { parametro1, parametro2});
+        }
+        */
+
         [HttpGet("{id:int}")]
         public async Task<ActionResult<Autor>> GetAutorById(int id)
         {
-            var autor = await context.Autores.FirstOrDefaultAsync(a => a.Id == id);
+            var autor = await context.Autores
+                .Include(l => l.Libros)
+                .FirstOrDefaultAsync(a => a.Id == id);
 
             if(autor == null)
             {
