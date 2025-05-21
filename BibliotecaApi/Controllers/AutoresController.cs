@@ -10,13 +10,14 @@ namespace BibliotecaApi.Controllers
     public class AutoresController: ControllerBase
     {
         private readonly ApplicationDbContext context;
+
         public AutoresController(ApplicationDbContext context)
         {
             this.context = context;
         }
 
         [HttpGet]
-        // [HttpGet("/listado-autores")]
+        [HttpGet("/listado-autores")]
         public async Task<IEnumerable<Autor>> Get()
         {
             return await context.Autores.ToListAsync();
@@ -27,24 +28,10 @@ namespace BibliotecaApi.Controllers
         {
             context.Add(autor);
             await context.SaveChangesAsync();
-            return Ok();
+            return CreatedAtRoute("ObtenerAutor", new {id = autor.Id}, autor);
         }
 
-        /*
-        [HttpGet("first")] // Test de valores
-        public async Task<Autor> GetFirstAutor()
-        {
-            return await context.Autores.FirstAsync();
-        }
-
-        [HttpGet("{parametro1}/{parametro2?}")] // Test de valores
-        public IActionResult GetParams(string parametro1, string? parametro2)
-        {
-            return Ok(new { parametro1, parametro2});
-        }
-        */
-
-        [HttpGet("{id:int}")]
+        [HttpGet("{id:int}", Name = "ObtenerAutor")]
         public async Task<ActionResult<Autor>> GetAutorById(int id)
         {
             var autor = await context.Autores

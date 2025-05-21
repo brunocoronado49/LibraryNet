@@ -7,7 +7,7 @@ namespace BibliotecaApi.Controllers
 {
     [ApiController]
     [Route("api/libros")]
-    public class LibrosController: ControllerBase
+    public class LibrosController : ControllerBase
     {
         private readonly ApplicationDbContext context;
 
@@ -34,10 +34,10 @@ namespace BibliotecaApi.Controllers
 
             context.Add(libro);
             await context.SaveChangesAsync();
-            return Ok();
+            return CreatedAtRoute("ObtenerLibro", new {id = libro.Id}, libro);
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("{id:int}", Name = "ObtenerLibro")]
         public async Task<ActionResult<Libro>> GetLibroById(int id)
         {
             var libro = await context.Libros
@@ -59,7 +59,8 @@ namespace BibliotecaApi.Controllers
 
             if (!autorExiste)
             {
-                return BadRequest($"El Id del autor ({libro.AutorId}) no existe.");
+                ModelState.AddModelError(nameof(libro.AutorId), $"El Id del autor ({libro.AutorId}) no existe.");
+                return ValidationProblem();
             }
 
             if (id != libro.Id)

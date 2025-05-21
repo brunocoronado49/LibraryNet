@@ -5,6 +5,7 @@ using System.Text.Json.Serialization;
 var builder = WebApplication.CreateBuilder(args);
 
 // Area de servicios
+
 builder.Services.AddControllers().AddJsonOptions(
     op => op.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
