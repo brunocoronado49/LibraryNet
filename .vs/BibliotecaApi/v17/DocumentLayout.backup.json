@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|c:\\users\\franc\\development\\backend\\bibliotecaapi\\bibliotecaapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|solutionrelative:bibliotecaapi\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|c:\\users\\franc\\development\\backend\\bibliotecaapi\\bibliotecaapi\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|solutionrelative:bibliotecaapi\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|c:\\users\\franc\\development\\backend\\bibliotecaapi\\bibliotecaapi\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|solutionrelative:bibliotecaapi\\utilities\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|c:\\users\\franc\\development\\backend\\bibliotecaapi\\bibliotecaapi\\dtos\\autorcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|solutionrelative:bibliotecaapi\\dtos\\autorcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|c:\\users\\franc\\development\\backend\\bibliotecaapi\\bibliotecaapi\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|solutionrelative:bibliotecaapi\\dtos\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|c:\\users\\franc\\development\\backend\\bibliotecaapi\\bibliotecaapi\\entities\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3733E2-BD97-4FE7-9568-50DF43B53CFF}|BibliotecaApi\\BibliotecaApi.csproj|solutionrelative:bibliotecaapi\\entities\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -34,26 +46,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LibrosController.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\Controllers\\LibrosController.cs",
-              "RelativeDocumentMoniker": "BibliotecaApi\\Controllers\\LibrosController.cs",
-              "ToolTip": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\Controllers\\LibrosController.cs",
-              "RelativeToolTip": "BibliotecaApi\\Controllers\\LibrosController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwFkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\Utilities\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "BibliotecaApi\\Utilities\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\Utilities\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "BibliotecaApi\\Utilities\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T06:40:19.451Z",
+              "WhenOpened": "2025-05-22T05:18:46.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "AutorCreacionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\DTOs\\AutorCreacionDTO.cs",
+              "RelativeDocumentMoniker": "BibliotecaApi\\DTOs\\AutorCreacionDTO.cs",
+              "ToolTip": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\DTOs\\AutorCreacionDTO.cs",
+              "RelativeToolTip": "BibliotecaApi\\DTOs\\AutorCreacionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:17:51.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\DTOs\\AutorDTO.cs",
+              "RelativeDocumentMoniker": "BibliotecaApi\\DTOs\\AutorDTO.cs",
+              "ToolTip": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\DTOs\\AutorDTO.cs",
+              "RelativeToolTip": "BibliotecaApi\\DTOs\\AutorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:19:55.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\Entities\\Autor.cs",
+              "RelativeDocumentMoniker": "BibliotecaApi\\Entities\\Autor.cs",
+              "ToolTip": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\Entities\\Autor.cs",
+              "RelativeToolTip": "BibliotecaApi\\Entities\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:00:43.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AutoresController.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\Controllers\\AutoresController.cs",
               "RelativeDocumentMoniker": "BibliotecaApi\\Controllers\\AutoresController.cs",
               "ToolTip": "C:\\Users\\franc\\Development\\backend\\BibliotecaApi\\BibliotecaApi\\Controllers\\AutoresController.cs",
               "RelativeToolTip": "BibliotecaApi\\Controllers\\AutoresController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwD4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T06:31:37.298Z",
               "EditorCaption": ""

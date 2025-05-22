@@ -1,11 +1,11 @@
-﻿using BibliotecaApi.Validations;
+﻿using BibliotecaApi.Entities;
+using BibliotecaApi.Validations;
 using System.ComponentModel.DataAnnotations;
 
-namespace BibliotecaApi.Entities
+namespace BibliotecaApi.DTOs
 {
-    public class Autor
+    public class AutorCreacionDTO
     {
-        public int Id { get; set; }
         [Required(ErrorMessage = "El campo {0} es requerido man.")]
         [StringLength(100, ErrorMessage = "El campo {0} debe tener menos de {1} caracteres.")]
         [FirstLetterMayus]

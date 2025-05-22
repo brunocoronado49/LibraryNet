@@ -12,7 +12,7 @@ namespace BibliotecaApi.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Autor>().Property(a => a.Name).HasMaxLength(100);
+            modelBuilder.Entity<Autor>().Property(a => a.Names).HasMaxLength(100);
         }
 
         public DbSet<Autor> Autores { get; set; }
